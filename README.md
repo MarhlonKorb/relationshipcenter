@@ -29,11 +29,12 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 ```bash
 [git clone https://github.com/seu-usuario/relationshipcenter.git](https://github.com/MarhlonKorb/relationshipcenter.git)
 cd relationshipcenter
+```
 
-## Abrir postman ou insomnia:
+### 2.Abrir postman ou insomnia
   Executar post para http://localhost:8080/api/v1/request-assistance
   body do tipo json com usa das alternativas abaixo:
-  
+```
   // {
 //   "subject": {
 //     "description": "Problemas com cartão"
@@ -52,7 +53,8 @@ cd relationshipcenter
   }
 }
 ```
-![Texto alternativo](caminho/para/imagem.png)
+
+![Texto alternativo](https://github.com/MarhlonKorb/relationshipcenter/blob/master/run.png)
 
 Existem 3 filas de atendimento cadastradas no start da aplicação:
 

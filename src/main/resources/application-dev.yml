@@ -1,0 +1,14 @@
+spring:
+  main:
+    lazy-initialization: true
+  threads:
+    virtual:
+      enabled: true
+
+server:
+  compression:
+    enabled: true
+    mime-types: application/json
+    min-response-size: 1024
+  http2:
+    enabled: true
